@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURD Operation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Arima:wght@100..700&family=Bree+Serif&family=Ga+Maamli&family=Oswald:wght@200..700&family=Pacifico&family=Protest+Revolution&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rowdies:wght@300;400;700&family=Sofia&family=Spicy+Rice&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>CRUD OPERATION</h1>
+    <input type="name" name="password" id="name" placeholder=" Enter Name"><br>
+    <input type="email" name="email" id="email" placeholder="Enter Email"><br>
+    <input type="password" name="password" id="password" placeholder="Enter password"><br>
+    <button onclick="createAccount()">Add</button>
+    <h2>GET DATA</h2>
+    <div id="showData">
+
+    </div>
+
+    <div class="curd-show">
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="delete"><button class="delete">Delete</button></td>
+                <td class="update"><button class="update">Update</button></td>
+            </tr>
+        </table>
+    </div>
+    <div id="updateInputs">
+
+    </div>
+    <script type="module" src="script.js"></script>
+
+</body>
+
+</html>
